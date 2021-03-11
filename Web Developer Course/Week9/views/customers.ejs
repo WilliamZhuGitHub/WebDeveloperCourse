@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+        <div>
+            <h1>
+                Satisifed Customers:
+             </h1>
+             <ul>
+                 <!-- <% for(let i = 0; i < customers.length; i++){ %>
+                    <li>  <%= customers[i] %> </li>
+                 <% } %> -->
+
+                 <% customers.forEach((customer) =>{ %>
+                    <li> <%= customer %> </li>
+                    <% }); %>
+              </ul>
+        </div>
+        
+        <%- include("partials/footer") %>

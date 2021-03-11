@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Register</h1>
+  <form action = "#" method ="GET">
+  <label for= "firstName"> First Name: </label>
+  <input id = "firstName" type="text" placeholder="first name" name = "firstName" required autofocus>
+  <label for= "lastName"> Last Name: </label>
+  <input id = "lastName" type="text" placeholder="last name" name = "lastName" required  >
+  <br>
+
+  <label for = "male" > Male </label>
+  <input id = "male" type = "radio" name = "gender" value = "male">
+  <label for = "female" > Female </label>
+  <input id = "female" type = "radio" name = "gender" value= "female">
+  <label for = "other" > Other </label>
+  <input id = "other" type = "radio" name = "gender" value= "other">
+  <br>
+
+  <label for= "email"> Email: </label>
+  <input id = "email" type="email" placeholder="email" name = "email" required >
+  <label for= "password"> Password: </label>
+  <input id = "password" type="password" placeholder="password" name = "password" required  >
+  <br>
+
+  <label for = "Birthday"> Birthday: </label>
+    <select name = "month" id = "month">
+      <option value="" disabled selected>Month</option>
+      <option value = "January">January</option>
+      <option value = "Febuary">Febuary</option>
+      <option value = "March">March</option>
+    </select>
+    <select name = "day" id = "month">
+      <option value="" disabled selected>Day</option>
+
+      <option value = "January">January</option>
+      <option value = "Febuary">Febuary</option>
+      <option value = "March">March</option>
+    </select>
+    <select name = "year" id = "month" placeholder = "year">
+      <option value="" disabled selected>Year</option>
+      <option value = "January">January</option>
+      <option value = "Febuary">Febuary</option>
+      <option value = "March">March</option>
+    </select>
+    <br>
+  <label for="checkbox"> I agree to the terms and conditions: </label>
+  <input id = "checkbox" type="checkbox" name="checked" value="" required>
+  <br>
+  <button type="Submit">Submit</button>
+</form>
+
+</body>
+</html>

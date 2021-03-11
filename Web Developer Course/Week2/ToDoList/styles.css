@@ -1,0 +1,30 @@
+body{
+  background: #202020;
+}
+
+#header_1{
+  color: #BADA55;
+}
+
+#par_1{
+  border:2px solid #FFFFFF;
+  color: #FFFFFF;
+ }
+
+ #item_1{
+   color: #FF3030;
+ }
+ #item_3{
+   color:#00FF00;
+ }
+
+.underline{
+  text-decoration: underline;
+ }
+
+.list_Item{
+  color: #FFFFFF;
+  background: rgba(0 , 50, 200, 0.6);
+  border: 1px dotted white;
+
+}
